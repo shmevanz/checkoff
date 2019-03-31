@@ -1,0 +1,104 @@
+body {
+    font-family: Helvetica, Arial, Sans-Serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    background: brown;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    background-color: gray;
+    color: white;
+    overflow: hidden;
+    height: 5%;
+}
+
+.logo {
+    float: left;
+}
+
+.navBox {
+    display: flex;
+    list-style: none;
+    float: right;
+
+}
+
+li {
+    padding: 15px;
+}
+
+.heroImage {
+    background: black;
+    height: 30%;
+    color: goldenrod;
+    text-align: center;
+    padding: 80px 0;
+    font-size: 30px;
+}
+
+.main {
+    background: white;
+    padding: 20px;
+    height: 50%;
+    overflow: hidden;
+}
+
+.smallBoxes {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.box {
+    background: lightgreen;
+    height: 150px;
+    width: 150px;
+    padding: 27px;
+    border-radius: 25px;
+}
+
+.bigBoxes {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 25px;
+}
+
+.bigBox {
+    background: rgb(247, 183, 65);
+    height: 150px;
+    width: 30%;
+    padding: 27px;
+}
+
+.picBox {
+    margin-bottom: 80px;
+}
+
+.text {
+    width: 30%;
+    float: left;
+    margin-left: 200px;
+    clear: both;
+}
+
+.image {
+    float: right;
+    background: red;
+    height: 200px;
+    width: 30%;
+    margin-right: 200px;
+}
+
+.footer {
+    height: 150px;
+    background: darkslateblue;
+    clear: both;
+}
