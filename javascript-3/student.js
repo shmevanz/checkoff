@@ -50,7 +50,7 @@ function checkGroceryCount() {
     } if (shoppingBag === 1) {
         return '1 item'
     } else {
-        return (shoppingBag + ' items')
+        return (shoppingBag + ' items   ')
     }
 };
 

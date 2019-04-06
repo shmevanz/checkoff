@@ -205,9 +205,7 @@ const enemies = people.filter(e => e.friend === false);
 // Using the people array above, let's get a total of the awesomeLevel from all the people. Call the new array 'totallyAwesome'. Use .reduce()
 
 // Code Here
-var totallyAwesome = people.map(function(e) {
-	return e.awesomeLevel;
-});
 var newLevel = totallyAwesome.reduce(function(prev, curr) {
-	return prev + curr;
+	return (prev += curr)
 });
+return newLevel;
